@@ -1,11 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import { Card } from "../../components";
 import { BANNER_IMAGE } from "../../config/images";
 import { useStore } from "../../contexts/Store";
-import { OptionsMenuProps } from "../../types";
 
 import * as Style from "./style";
 

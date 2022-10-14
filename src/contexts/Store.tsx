@@ -4,10 +4,9 @@ import {
   useState,
   useContext,
   ReactNode,
-  ChangeEvent,
 } from "react";
-import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+
 import { OptionsMenuProps } from "../types";
 
 interface StoreContextData {
