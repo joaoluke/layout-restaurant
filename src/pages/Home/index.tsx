@@ -31,6 +31,7 @@ export function Home() {
             name={itemMenu.name}
             description={itemMenu.description}
             image={itemMenu.image}
+            price={itemMenu.price}
           />
         ))}
       </Style.CardsContainer>

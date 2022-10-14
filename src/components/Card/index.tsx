@@ -2,7 +2,7 @@ import { CardProps } from "../../types";
 
 import * as Style from "./style";
 
-export function Card({ name, description, image }: CardProps) {
+export function Card({ name, description, image, price }: CardProps) {
   return (
     <Style.Container>
       <div className="card">
@@ -17,6 +17,7 @@ export function Card({ name, description, image }: CardProps) {
         <div className="card-body">
           <h4>{name}</h4>
           <p>{description}</p>
+          <Style.PriceTag className="card-price">{price}</Style.PriceTag>
         </div>
       </div>
     </Style.Container>

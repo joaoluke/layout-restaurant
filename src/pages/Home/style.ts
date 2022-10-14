@@ -14,7 +14,8 @@ export const ImageContainer = styled.div`
 `;
 
 export const ImageBanner = styled.img`
-  height: 300px;
+  min-height: 219px;
+  width: 100%;
 `;
 
 export const CardsContainer = styled.section`
